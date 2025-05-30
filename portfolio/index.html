@@ -1,50 +1,91 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8" /><title>Emeka-Opara Franklin - Personal Portfolio</title>
+    <meta charset="utf-8" />
+    <title>Emeka-Opara Franklin - Personal Portfolio</title>
+    <style>
+        /* This is for demonstration, inline styles are generally not recommended for large projects */
+        body {
+            background-color: black;
+        }
+        h1 {
+            color: coral;
+        }
+        p {
+            color: burlywood;
+        }
+        nav ul {
+            list-style: none; /* Removes bullet points */
+            padding: 0;
+        }
+        nav li a {
+            color: blanchedalmond;
+            text-decoration: none; /* Removes underline from links */
+            font-style: italic;
+        }
+        h2 {
+            color: darksalmon;
+        }
+        h3 {
+            color: rgb(244, 169, 144);
+        }
+        section p, footer p {
+            color: rgb(229, 176, 158);
+        }
+        section a, footer a {
+             color: rgb(229, 176, 158); /* Ensure links in sections also have the desired color */
+        }
+    </style>
 </head>
-<body style="background-color: black;">
-    <!-- <figure>  <img src="https://drive.google.com/file/d/1hBfZRRRnXXC5jKZxxWU6rwxmJkY0fMxW/view?usp=sharing"> </figure> -->
+<body>
     <header>
-        <h1 style="color: coral;">Dr. Emeka-Opara Franklin</h1>
-        <p style="color: burlywood;">Optometrist, Project Manager, Virtual Assistant and Front-end Developer in training</p>
+        <h1>Dr. Emeka-Opara Franklin</h1>
+        <p>Optometrist, Project Manager, Virtual Assistant and Front-end Developer in training</p>
     </header>
+
     <nav>
         <ul>
-            <li a href="#introduction" style="color: blanchedalmond;"><em>Introduction</em></li>
-            <li a href="#about me" style="color: blanchedalmond;"><em>About Me</em></li>
-            <li a href="#projects" style="color: blanchedalmond;""><em>Projects</em></li>
-            <li a href="#contact" style="color: blanchedalmond;""><em>Contact</em></li>
+            <li><a href="#introduction"><em>Introduction</em></a></li>
+            <li><a href="#about"><em>About Me</em></a></li>
+            <li><a href="#projects"><em>Projects</em></a></li>
+            <li><a href="#contact"><em>Contact</em></a></li>
         </ul>
     </nav>
+
     <section id="introduction">
-        <h2 style="color:darksalmon;"><strong>Introduction</strong></h2>
-        <p style="color:rgb(229, 176, 158) ;">Dr. Franklin is an Optometrist that aims to provide cheap healthcare services to low inccome communities using tech</p>
+        <h2><strong>Introduction</strong></h2>
+        <p>Dr. Franklin is an Optometrist that aims to provide cheap healthcare services to low income communities using tech.</p>
     </section>
-    <section id="about me">
-        <h2 style="color:darksalmon"><strong>About Me</strong></h2>
-        <p style="color:rgb(229, 176, 158)">Dr. Franklin studied Optometry at Abia State University, Nigeria.</p>
-        <p style="color:rgb(229, 176, 158)">He took a class on project management on a website called studywell</p>
-        <p style="color:rgb(229, 176, 158)">He took a class on Virtual assisting on Alx and is currently studying front-end develoopment too</p>
-        <p style="color:rgb(229, 176, 158)">He has a passion for healthcare and Beyonce</p>
+
+    <section id="about">
+        <h2><strong>About Me</strong></h2>
+        <p>Dr. Franklin studied Optometry at Abia State University, Nigeria.</p>
+        <p>He took a class on project management on a website called Studywell.</p>
+        <p>He took a class on Virtual Assisting on ALX and is currently studying Front-end development too.</p>
+        <p>He has a passion for healthcare and Beyoncé.</p>
     </section>
+
     <section id="projects">
-         <h2 style="color:darksalmon"><strong>Projects</strong></h2>
-      <article class="projects">
-        <h3 style="color:rgb(244, 169, 144)">GoFundSchool</h3>
-         <p style="color:rgb(229, 176, 158)"><a href="https://docs.google.com/presentation/d/13jsIMLXXL5HNEH4wtxphW8Tbcgd7o_AF1kKEgxCpCOo/edit?usp=sharing" target="_blank">link</a></p>
+        <h2><strong>Projects</strong></h2>
+        <article class="project">
+            <h3>GoFundSchool</h3>
+            <p><a href="https://docs.google.com/presentation/d/13jsIMLXXL5HNEH4wtxphW8Tbcgd7o_AF1kKEgxCpCOo/edit?usp=sharing" target="_blank">Link to Presentation</a></p>
         </article>
-        <article class="projects">
-            <h3 style="color:rgb(244, 169, 144)">The effect of Dexamethasone on the efficacy of Neomycin</h3>
-                 <p style="color:rgb(229, 176, 158)"><a href="https://drive.google.com/file/d/1Wx49rjR9rBZMDPPPRPO5KgoenWS8bqs_/view?usp=sharing" target="_blank">link</a></p>
+        <article class="project">
+            <h3>The effect of Dexamethasone on the efficacy of Neomycin</h3>
+            <p><a href="https://drive.google.com/file/d/1Wx49rjR9rBZMDPPPRPO5KgoenWS8bqs_/view?usp=sharing" target="_blank">Link to Document</a></p>
         </article>
     </section>
+
     <section id="contact">
-         <h2 style="color:darksalmon"><strong>Contact</strong></h2>
-         <p style="color:rgb(229, 176, 158)"><a href="mailto:franklinemekaopar@gmail.com" target="_blank">Email</a></p>
-         <p style="color:rgb(229, 176, 158)"><a href="https://www.linkedin.com/in/franklinemekaopara" target="_blank">Linkedin</a></p>
-    <p style="color:rgb(229, 176, 158)"><a href="http://github.com/Athena-cyber/" target="_blank">GitHub</a></p>
-        </section>
-    <footer><p style="color:rgb(229, 176, 158)">&copy;Dr.Franklin, 2025.</p></footer>
+        <h2><strong>Contact</strong></h2>
+        <p><a href="mailto:franklinemekaopar@gmail.com" target="_blank">Email</a></p>
+        <p><a href="https://www.linkedin.com/in/franklinemekaopara" target="_blank">LinkedIn</a></p>
+        <p><a href="http://github.com/Athena-cyber/" target="_blank">GitHub</a></p>
+    </section>
+
+    <footer>
+        <p>&copy; Dr. Franklin, 2025.</p>
+    </footer>
 </body>
 </html>
